@@ -42,6 +42,10 @@
   overflow: 15px 0;
 }
 
+.content p strong {
+  font-size: 20px;
+}
+
 .timing {
   font-size: 40px;
 }
@@ -52,6 +56,24 @@ body {
   background-size: cover;
 }
 
-footer {
-  margin-top: 2rem;
+.copyr {
+  color: #fff;
+  font-size: 18px;
+}
+.copyr a {
+  text-decoration: none;
+  color: #fa000f;
+}
+
+@media (max-width: 767px) {
+  .content h2 {
+    font-size: 40px;
+  }
+
+  .content p {
+    width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
 }
