@@ -1,4 +1,4 @@
-let customDateTime = new Date(2022, 09, 07, 0, 0, 0).getTime();
+let customDateTime = new Date(2022, 11, 30, 0, 0, 0).getTime();
 
 let timer = setInterval(() => {
   let now = new Date().getTime();
